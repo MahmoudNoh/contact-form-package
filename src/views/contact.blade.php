@@ -75,7 +75,7 @@
                             @endif
                             :
                         </label>
-                        <input type="text" name="email" class="form-control @error('email') is-invalid @enderror"  id='email'  value="{{ old('email') }}">
+                        <input type="email" name="email" class="form-control @error('email') is-invalid @enderror"  id='email'  value="{{ old('email') }}">
                     </div>
 
                     <div class="form-group">
