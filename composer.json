@@ -1,0 +1,25 @@
+{
+    "name": "noh/contact",
+    "description": "This is Contact Form Demo",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MahmoudNoh",
+            "email": "mahmoudnoh50@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Noh\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Noh\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
